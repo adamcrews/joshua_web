@@ -1,0 +1,11 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAJOTS3QKFW6WQR3TA
+  secret_access_key:
+    secure: ukBKxUSOqcLlZWTu0kIu2IvmFWE4YbI+N0h57RtwHuifv8XRVSqL1jR9nQxvStn3XEWI0Sq5gDgRC9bjEExKfUIMpvg4EHa2MujK4q8BImFjG+rfxwsXPeSE6tb6g2ZSdOLdlR8p7XwDNDGwBbqzE/j6FnZzXwvohllwUM6kjAvdlfLjFeHkA2H/SEviI0KYddNHolNzLiVIv29TX0uKus1KQN+6JeurQVE/1dqNCfXI+dgnfI1lso6Zmrx0IEstdTo4If7rvCmpyc7AK2ZPwWtS5F0cwI/04f818HHs/pRnLU2gmKcy3e4TiUf9J38F67qSPB5qU1vBDFyzgCUeUo9wssNND4itgrgBleR8EosQD6VovM2Na20sH8Tk7YqNZtFS+nJjJMxV64c/5lhPRSbE2vhmK1+kFsOoJW8PbZZ2lZ3q3PmYEbc1F3cxS1bITyPhGgnjhw9umE5r5JcO9jH18CjyIKwhSujQ6CUHihZfo3h9T4mkr4NY8RGcM8nYoYBJLC6DPUub+YYre+T2WI4dyrp4qt3V/XUeKHu1auvQUzKUJtqkEQskMeP0ywdv0wTZ/m9gZTB0uE+vdSmIHttmm6Jmx/wrJshUsQebM4X2icas/ulDecOvvK4+XB37Sj55Zfe5r7rAd8YH8yqP4fOR5iEf5pIrl3JY6yHxmzs=
+  bucket: j.shroom.net
+  skip_cleanup: true
+  acl: public_read
+  region: us-west-2
+  on:
+    repo: adamcrews/joshua_web
